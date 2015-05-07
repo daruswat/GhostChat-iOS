@@ -146,6 +146,9 @@
                                         <exclude reference="Yfl-Hh-kaP"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="XVm-2Q-CQM"/>
+                                </connections>
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ha4-GR-1I7">
                                 <rect key="frame" x="-25" y="-15" width="51" height="31"/>

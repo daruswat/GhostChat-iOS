@@ -10,7 +10,7 @@ import UIKit
 import CoreBluetooth
 
 
-class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralManagerDelegate,CBPeripheralDelegate {
+class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralManagerDelegate,CBPeripheralDelegate, UITextFieldDelegate {
 
     // MARK: - Globals
     
@@ -37,6 +37,8 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
     //  CoreBluetooth Central Stuff
     var myCentralManager = CBCentralManager()
     var peripheralArray = [CBPeripheral]() // create now empty array.
+    
+    
   
     
     
@@ -44,6 +46,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var myTextField: UITextField!
+    
 
     @IBAction func sendButtonPressed(sender: UIButton) {
         advertiseNewName(myTextField.text)
@@ -56,6 +59,11 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
         startScanning()
         
     }
+    //keyboard show and gone
+    func textFieldShouldReturn(myTextField: UITextField) -> Bool {myTextField.resignFirstResponder()
+        return false
+    }
+    
     
     // MARK: - ViewDidLoad
     override func viewDidLoad() {
@@ -236,6 +244,9 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
         myCentralManager = CBCentralManager(delegate: self, queue: dispatch_get_main_queue())
         
     }
+    
+    
+    
 
 
     
