@@ -4,4 +4,4 @@ GhostChat for iOS
 Added ReadMe for Forking Example
 
 #screenshot
-![screenshot] (UIScreenshort)
+![screenshot] (https://github.com/daruswat/GhostChat-iOS/blob/master/UIScreenshort.png)
