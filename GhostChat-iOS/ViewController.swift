@@ -51,6 +51,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
     @IBAction func sendButtonPressed(sender: UIButton) {
         advertiseNewName(myTextField.text)
 
+        myTextField.resignFirstResponder()
     }
     
     @IBAction func refreshPressed(sender: UIButton) {
@@ -63,6 +64,7 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
     func textFieldShouldReturn(myTextField: UITextField) -> Bool {myTextField.resignFirstResponder()
         return false
     }
+    
     
     
     // MARK: - ViewDidLoad
