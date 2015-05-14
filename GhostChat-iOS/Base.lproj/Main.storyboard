@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -206,14 +207,14 @@
                                 <exclude reference="5vS-vE-gbq"/>
                                 <exclude reference="Wc5-Ad-6GQ"/>
                                 <exclude reference="vdn-16-sqt"/>
-                                <exclude reference="0jn-68-Den"/>
-                                <exclude reference="P5g-js-sCW"/>
-                                <exclude reference="xod-L7-mgv"/>
-                                <exclude reference="IEB-FZ-mhg"/>
-                                <exclude reference="lQv-R1-vtx"/>
                                 <exclude reference="0q4-OI-Rzx"/>
                                 <exclude reference="DuC-nY-fK5"/>
                                 <exclude reference="NMQ-8m-Oa5"/>
+                                <exclude reference="IEB-FZ-mhg"/>
+                                <exclude reference="lQv-R1-vtx"/>
+                                <exclude reference="0jn-68-Den"/>
+                                <exclude reference="P5g-js-sCW"/>
+                                <exclude reference="xod-L7-mgv"/>
                                 <exclude reference="F1Q-rq-fOT"/>
                                 <exclude reference="ckQ-nR-dI3"/>
                                 <exclude reference="mxm-vU-dMA"/>
@@ -233,18 +234,18 @@
                                 <exclude reference="aJK-Az-WHN"/>
                                 <exclude reference="cvF-82-Q4d"/>
                                 <include reference="vdn-16-sqt"/>
-                                <include reference="0jn-68-Den"/>
-                                <exclude reference="ON6-ci-baR"/>
-                                <include reference="P5g-js-sCW"/>
-                                <include reference="xod-L7-mgv"/>
-                                <include reference="IEB-FZ-mhg"/>
-                                <exclude reference="QTj-7b-U8U"/>
-                                <exclude reference="ZhZ-9B-n1O"/>
-                                <include reference="lQv-R1-vtx"/>
                                 <include reference="0q4-OI-Rzx"/>
                                 <include reference="DuC-nY-fK5"/>
                                 <include reference="NMQ-8m-Oa5"/>
                                 <exclude reference="Q35-C2-waI"/>
+                                <include reference="IEB-FZ-mhg"/>
+                                <exclude reference="QTj-7b-U8U"/>
+                                <exclude reference="ZhZ-9B-n1O"/>
+                                <include reference="lQv-R1-vtx"/>
+                                <include reference="0jn-68-Den"/>
+                                <exclude reference="ON6-ci-baR"/>
+                                <include reference="P5g-js-sCW"/>
+                                <include reference="xod-L7-mgv"/>
                                 <include reference="F1Q-rq-fOT"/>
                                 <exclude reference="bkv-46-qHr"/>
                                 <include reference="ckQ-nR-dI3"/>
