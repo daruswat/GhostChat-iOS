@@ -12,6 +12,7 @@ When someone like your conversation, they can click like at the sentense. It wil
 ![screenshot] (https://github.com/daruswat/GhostChat-iOS/blob/master/Screen3.png)
 ![screenshot] (https://github.com/daruswat/GhostChat-iOS/blob/master/ScreenShot-1.png)
 ![screenshot] (https://github.com/daruswat/GhostChat-iOS/blob/master/ScreenShot-2.png)
+![screenshot] (https://github.com/daruswat/GhostChat-iOS/blob/master/1431642079.gif)
 
 
 
