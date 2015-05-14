@@ -11,6 +11,8 @@ import CoreBluetooth
 
 
 class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralManagerDelegate,CBPeripheralDelegate, UITextFieldDelegate {
+    
+    
 
     // MARK: - Globals
     
@@ -72,6 +74,8 @@ class ViewController: UIViewController, CBPeripheralManagerDelegate, CBCentralMa
         super.viewDidLoad()
         advertiseNewName(myTextField.text)
         putPeripheralManagerIntoMainQueue()
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "chat3.jpg")!)
         
 
     }

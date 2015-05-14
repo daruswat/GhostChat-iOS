@@ -13,6 +13,9 @@
 		6C7849191AED4DD50054DBED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7849181AED4DD50054DBED /* Images.xcassets */; };
 		6C78491C1AED4DD50054DBED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C78491A1AED4DD50054DBED /* LaunchScreen.xib */; };
 		6C7849281AED4DD50054DBED /* GhostChat_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7849271AED4DD50054DBED /* GhostChat_iOSTests.swift */; };
+		D832E9F11B04663000F2A3B1 /* chatR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D832E9F01B04663000F2A3B1 /* chatR.jpg */; };
+		D832E9F31B0466BF00F2A3B1 /* chat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D832E9F21B0466BF00F2A3B1 /* chat2.jpg */; };
+		D832E9F51B04671C00F2A3B1 /* chat3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D832E9F41B04671C00F2A3B1 /* chat3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		6C7849211AED4DD50054DBED /* GhostChat-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GhostChat-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7849261AED4DD50054DBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C7849271AED4DD50054DBED /* GhostChat_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostChat_iOSTests.swift; sourceTree = "<group>"; };
+		D832E9F01B04663000F2A3B1 /* chatR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chatR.jpg; path = ../../../../Desktop/chatR.jpg; sourceTree = "<group>"; };
+		D832E9F21B0466BF00F2A3B1 /* chat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chat2.jpg; path = ../../../../Desktop/chat2.jpg; sourceTree = "<group>"; };
+		D832E9F41B04671C00F2A3B1 /* chat3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chat3.jpg; path = ../../../../Desktop/chat3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		6C78490F1AED4DD50054DBED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D832E9F21B0466BF00F2A3B1 /* chat2.jpg */,
+				D832E9F41B04671C00F2A3B1 /* chat3.jpg */,
+				D832E9F01B04663000F2A3B1 /* chatR.jpg */,
 				6C7849101AED4DD50054DBED /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D832E9F31B0466BF00F2A3B1 /* chat2.jpg in Resources */,
 				6C7849171AED4DD50054DBED /* Main.storyboard in Resources */,
+				D832E9F11B04663000F2A3B1 /* chatR.jpg in Resources */,
+				D832E9F51B04671C00F2A3B1 /* chat3.jpg in Resources */,
 				6C78491C1AED4DD50054DBED /* LaunchScreen.xib in Resources */,
 				6C7849191AED4DD50054DBED /* Images.xcassets in Resources */,
 			);
